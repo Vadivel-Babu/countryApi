@@ -1,0 +1,14 @@
+.card{
+  width: 250px;
+  background-color: white;
+  color: black;
+}
+.img{
+  width: 100%;
+}
+.content{
+  padding: 10px;
+}
+.details{
+  margin-top: 10px;
+}

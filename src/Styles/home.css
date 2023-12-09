@@ -1,0 +1,38 @@
+.home{
+   background-color: rgb(240, 240, 240);
+   padding: 20px;
+   min-height: 100vh;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+  
+.link{
+  text-decoration: none;
+}
+.search{
+  background-color: white;
+  width: max-content;
+  padding: 10px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  border-radius: 5px;
+
+}
+input[type='text']{
+  padding: 5px 8px;
+  border: 0;
+  width: 300px;
+}
+input[type='text']:focus{
+  outline: 0;
+}
+.icon{
+  color: gray;
+}

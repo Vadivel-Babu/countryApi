@@ -1,0 +1,42 @@
+.country{
+  padding: 20px;
+  background-color: rgb(240, 240, 240);
+  min-height: 100dvh;
+}
+.back{
+  text-decoration: none;
+  padding: 5px 8px;
+  background-color: rgb(255, 255, 255);
+}
+.block{
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.name{
+  margin-bottom: 10px;
+}
+.details-1{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.subname{
+  margin-bottom: 5px;
+}
+.border{
+  margin-top: 20px;
+}
+.span{
+  margin-left: 3px;
+  font-weight: 400;
+  background-color: white;
+  display: inline-block;
+  padding: 3px 5px;
+  border-radius: 3px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

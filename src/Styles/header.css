@@ -1,0 +1,18 @@
+.header{
+  padding:20px;
+  display: flex;
+  justify-content: space-between;
+}
+.header.light{
+  background-color: rgb(240, 240, 240);
+  color: black;
+}
+.header.dark{
+  background-color: rgb(12, 12, 12);
+  color: rgb(243, 243, 243);
+}
+.mode{
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
